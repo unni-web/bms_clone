@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .div {
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    background-color: #eb4e62;
+    border-radius: 20px;
+
+}
+
+.div h3 {
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+form input {
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.div a {
+    text-decoration: none;
+    padding-left: 115px;
+    color: white;
+    font-family: Roboto, sans-serif;
+
+}

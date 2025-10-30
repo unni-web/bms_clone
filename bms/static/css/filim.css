@@ -49,12 +49,24 @@ body {
     font-size: 17px;
 }
 
-.nav .right button {
+.nav .right a {
     background-color: #eb4e62;
     color: white;
     border: 0;
     border-radius: 5px;
     padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.nav .left a {
+    background-color: #eb4e62;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+        padding-left: 6px;
     padding-right: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -206,7 +218,7 @@ body {
 
 }
 
-.img button {
+.img a {
     position: absolute;
     left: 480px;
     top: 490px;
@@ -216,6 +228,7 @@ body {
     padding: 13px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
+    text-decoration: none;
 
 }
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/book.css'%}">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="div">
+            <h3>CONFIRM BOOKING</h3>
+            <form action="../book/" method="POST">
+                {% csrf_token %}
+                <table>
+                    <input type="email" name="email" id="" placeholder="Email" value="{{ user.email }}">
+                    <input type="submit" value="Book">
+
+                </table>
+                <a href="../filim">Cancel</a>
+            </form>
+</body>
+
+</html>

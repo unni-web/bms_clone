@@ -47,7 +47,7 @@ body {
     font-size: 17px;
 }
 
-.nav .right button {
+.nav .right a {
     background-color: #eb4e62;
     color: white;
     border: 0;
@@ -56,7 +56,7 @@ body {
     padding-right: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
-
+text-decoration: none;
 }
 
 .nav .right {
