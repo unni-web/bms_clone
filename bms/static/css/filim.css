@@ -221,11 +221,11 @@ body {
 .img a {
     position: absolute;
     left: 480px;
-    top: 490px;
+    top: 485px;
     background-color: #eb4e62;
     border: 0;
     color: white;
-    padding: 13px;
+    padding: 12px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
     text-decoration: none;
